@@ -1,0 +1,18 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+   <style>
+clockcenter {
+	color: blue;
+}
+
+.paragraph1 {
+	font-size: 18px;
+	color: blue;
+}
+
+.paragraph2 {
+	font-size: 13px;
+	color: blue;
+}
+</style>

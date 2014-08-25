@@ -1,0 +1,59 @@
+	<html>
+		<head>
+<title>HomePage</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script> 
+$(function() {
+$("#includedContent").load("Test.jsp"); 
+}); 
+</script> 
+
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="../view/css/bootstrap.min.css">
+<link rel="stylesheet" href="../view/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="../view/css/main.css">
+<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+<script src="js/admin.js"></script>
+<link href="dashboard.css" rel="stylesheet">
+
+<!-- Clock Style needs to be in another library -->
+<style>
+clockcenter {
+	color: blue;
+}
+
+.paragraph1 {
+	font-size: 18px;
+}
+
+.paragraph2 {
+	font-size: 13px;
+}
+</style>
+<body>
+
+</head>
+<div>
+				<div class="thumbnail">
+					<img src="../view/images/Aley Koteret Logo.jpg" alt="...">
+					<div class="panel panel-primary">
+						<div class="panel-body">
+							<clockcenter class="paragraph1">
+							<div class="clockcenter" align="center">
+								<digiclock>12:45:25</digiclock>
+							</div>
+							</clockcenter>
+							<script src="/VEF_CRM/view/js/admin.js"></script>
+						</div>
+					</div>
+			<ul class="nav nav-sidebar-fixed">
+				<li><a href="../controller/viewClient">Clients</a></li>
+				<li><a href="../controller/viewTimlol">Transcribers</a></li>
+				<li><a href="../controller/viewTrans">Translators</a></li>
+				<li><a href="../controller/viewWorkOrder">Work Orders</a></li>
+				<li><a href="../controller/viewCoupons">Coupons</a></li>
+			</ul>
+			</div>
+	</body>
+	</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.aleykoteretpro.packages.Coupons" table="Coupons">
+		<id name="id" type="int" column="id" >
+		<generator class="increment"/></id>
+		<property name="price"><column name="price"/></property>
+		<property name="client"><column name="client"/></property>
+		<property name="job"><column name="job"/></property>
+		<property name="description"><column name="description"/></property>
+		<property name="startDate"><column name="startDate"/></property>
+		<property name="finishDate"><column name="finishDate"/></property>
+	</class>
+</hibernate-mapping>

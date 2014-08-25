@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.aleykoteretpro.packages.Client" table="Client">
+		<id name="id" type="int" column="id" >
+			<generator class="increment"/>
+		</id>
+		<property name="firstName"><column name="firstName"/></property>
+		<property name="lastName"><column name="lastName"/></property>
+		<property name="phone"><column name="phone"/></property>
+		<property name="email"><column name="email"/></property>
+		<property name="adress"><column name="adress"/></property>
+		<property name="companyName"><column name="companyName"/></property>
+		<property name="companyCode"><column name="companyCode"/></property>
+	</class>
+</hibernate-mapping>

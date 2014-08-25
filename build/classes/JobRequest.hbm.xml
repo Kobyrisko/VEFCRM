@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.aleykoteretpro.packages.JobRequest" table="JobRequest">
+		<id name="id" type="int" column="id" >
+		<generator class="increment"/></id>
+		
+		<property name="workOrderID" type="int"><column name="workOrderID"/></property>
+		<property name="FreeLancerName"><column name="FreeLancerName"/></property>
+		<property name="price" type="int"><column name="price"/></property>
+		<property name="month"><column name="month"/></property>
+		<property name="finishDate"><column name="finishDate"/></property>
+		<property name="nameOfJob"><column name="nameOfJob"/></property>
+		<property name="status"><column name="status"/></property>
+		<property name="Comments"><column name="Comments"/></property>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.aleykoteretpro.packages.Users" table="Users">
+		<id name="id" type="int" column="id" >
+			<generator class="increment"/>
+		</id>
+		<property name="username"><column name="username"/></property>
+		<property name="password"><column name="password"/></property>
+		<property name="lastlogin"><column name="lastlogin"/></property>
+	</class>
+</hibernate-mapping>

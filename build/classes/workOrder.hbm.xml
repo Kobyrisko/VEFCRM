@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.aleykoteretpro.packages.WorkOrder" table="workOrder">
+		<id name="id" type="int" column="id" >
+		<generator class="increment"/></id>
+		<property name="client"><column name="client"/></property>
+		<property name="job"><column name="job"/></property>
+		<property name="lang1"><column name="lang1"/></property>
+		<property name="lang2"><column name="lang2"/></property>
+		<property name="length"><column name="length"/></property>
+		<property name="translator"><column name="translator"/></property>
+		<property name="timlol"><column name="timlol"/></property>
+		<property name="status"><column name="status"/></property>
+		<property name="startDate"><column name="startDate"/></property>
+		<property name="finishDate"><column name="finishDate"/></property>
+		<property name="ClientGet"><column name="ClientGet"/></property>
+		<property name="price"><column name="price"/></property>
+		<property name="Notifications"><column name="Notifications"/></property>
+		<property name="nameOfJob"><column name="nameOfJob"/></property>
+	</class>
+</hibernate-mapping>
